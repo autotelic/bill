@@ -1,0 +1,14 @@
+- name: Applications and tools
+  hosts: all
+  tasks:
+  - name: install brewcask applications
+    tags: casks
+    homebrew_cask: state=present name={{ item }}
+    with_items:
+      - google-chrome
+      - firefox
+      - slack
+      - 1password
+      - notion
+      - visual-studio-code
+      - rectangle
