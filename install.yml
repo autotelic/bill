@@ -13,3 +13,13 @@
       - visual-studio-code
       - rectangle
       - docker
+
+  - name: install homebrew tools
+    tags: brews
+    homebrew:
+      state: present
+      name:
+        - nodenv
+        - jq
+        - httpie
+        - chamber
