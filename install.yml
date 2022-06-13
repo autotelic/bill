@@ -13,6 +13,7 @@
       - visual-studio-code
       - rectangle
       - docker
+      - aws-vault
 
   - name: install homebrew tools
     tags: brews
