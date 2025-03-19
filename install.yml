@@ -14,6 +14,7 @@
       - rectangle
       - docker
       - aws-vault
+      - copyq
 
   - name: install homebrew tools
     tags: brews
